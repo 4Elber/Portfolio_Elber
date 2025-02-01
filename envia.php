@@ -9,7 +9,7 @@
 
     $corpo = "Nome: ".$nome."\n"."Email: ".$email."\n"."Telefone: ".$tell;
 
-    $cabeca = "From: teste@inteliogia.com"."\n"."Reply-to: ".$email."\n"."X-Mailer:PHP/".phpversion();
+    $cabeca = "From: teste@inteliogia.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
     if(mail($para,$assunto,$corpo,$cabeca)){
         echo("Email enviado com sucesso!");
