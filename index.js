@@ -1,3 +1,5 @@
+//validação de email
+
 const emailForm = document.querySelector('#emailForm');
 const emailInput = document.querySelector('#emailInput');
 const msg = document.querySelector('#message');
@@ -12,6 +14,7 @@ emailForm.addEventListener('submit', function(event){
     if(isValid){
         msg.textContent = "E-mail válido!";
         msg.style.color = "green";
+        this.submit();
     }else{
         msg.textContent = "E-mail inválido!";
         msg.style.color = "red";
