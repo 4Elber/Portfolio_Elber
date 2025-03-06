@@ -13,6 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script defer src="index.js"></script>
 </head>
 
 <body>
@@ -148,9 +149,10 @@
             <div class="interface">
                 <h2 class="titulo">Fala <span>Comigo</span></h2>
 
-                <form action="https://formsubmit.co/elberlucasalvesbarboza@gmail.com" method="post">
+                <form action="https://formsubmit.co/elberlucasalvesbarboza@gmail.com" method="post" id="emailForm">
                     <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
-                    <input type="text" name="email" id="email" placeholder="Seu email" required>
+                    <input type="text" name="email" id="emailInput" placeholder="Seu email" required>
+                    <p id="message"></p>
                     <input type="text" name="telefone" id="telefone" placeholder="Seu telefone" required>
                     <textarea name="msg" id="msg" placeholder="Sua mensagem" required></textarea>
                     <div class="btn-enviar"><input type="submit">
@@ -158,6 +160,7 @@
                         <input type="hidden" name="_subject" value="Novo Contato">
                         <input type="text" name="_honey" style="display: none;">
                         <input type="hidden" name="_captcha" value="false">
+
                     </div>
                 </form>
             </div>
