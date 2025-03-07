@@ -51,7 +51,7 @@ form .btn-enviar input:hover {
 /* ESTILO DE CABEÇALHO */
 
 header {
-    padding: 40px 4%;
+    padding: 20px 4%;
 }
 
 header>.interface {
@@ -61,8 +61,8 @@ header>.interface {
 }
 
 header .logo img {
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 90%;
     border-radius: 50%;
 }
 
@@ -90,7 +90,8 @@ header nav ul li {
 /* ESTILO DO TOPO DO SITE */
 
 section.topo-do-site {
-    padding: 40px 4%;
+    padding: 10px 4%;
+    margin-bottom: 10%;
 }
 
 section.topo-do-site .flex {
@@ -169,6 +170,7 @@ section.especialidades .flex {
 
 section.sobre {
     padding: 40px 4%;
+    margin: 90px;
 }
 
 section.sobre .flex {
@@ -219,6 +221,7 @@ section.sobre .flex {
 section.portfolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff78;
+    margin-top: 300px;
 }
 
 section.portfolio .flex {
