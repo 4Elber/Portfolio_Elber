@@ -9,7 +9,7 @@
 
 body {
     background-color: #143444;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .interface {
@@ -91,7 +91,7 @@ header nav ul li {
 
 section.topo-do-site {
     padding: 10px 4%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 section.topo-do-site .flex {
@@ -137,7 +137,7 @@ section.topo-do-site .flex {
 
 section.especialidades {
     padding: 40px 4%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 section.especialidades .flex {
@@ -172,7 +172,7 @@ section.especialidades .flex {
 
 section.sobre {
     padding: 40px 4%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 section.sobre .flex {
@@ -223,7 +223,7 @@ section.sobre .flex {
 section.portfolio {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #ffffff78;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 section.portfolio .flex {
@@ -272,7 +272,7 @@ section.portfolio .flex {
 
 section.formulario {
     padding: 80px 4%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 form {
