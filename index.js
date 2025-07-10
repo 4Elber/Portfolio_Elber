@@ -52,3 +52,30 @@ const validateEmail = (email) => {
     const regex = /^[^\s]+@[^\s]+\.[^\s]+$/;
     return regex.test(email);
 };
+
+// Mostrar/esconder botão quando rolar
+window.onscroll = function () {
+    const botao = document.getElementById("btnTopo");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        botao.style.display = "block";
+    } else {
+        botao.style.display = "none";
+    }
+};
+
+// Subir lentamente ao clicar
+document.addEventListener("DOMContentLoaded", () => {
+    const botao = document.getElementById("btnTopo");
+
+    botao.addEventListener("click", () => {
+        const subirLento = setInterval(() => {
+            const pos = window.pageYOffset;
+
+            if (pos > 0) {
+                window.scrollBy(0, -30); // mais lento
+            } else {
+                clearInterval(subirLento);
+            }
+        }, 10); // mais suave
+    });
+});
